@@ -11,16 +11,24 @@
   <body>
     <div class="flex">
       <div
-        class="flex-col lg:justify-start sm:justify-center sm:text-center lg:text-start lg:ml-20"
+        class="flex flex-col"
       >
-        <h1 class="text-white items-start mt-20 lg:text-9xl sm:text-5xl mt-100">
+        <h1 class="text-white text-center md:text-left  lg:text-left  text-7xl md:m-20 lg:m-20 mt-20">
           RIDEES
         </h1>
-
-        <h1 style="color: #ffbd58" class="text-6xl mt-10">
+        <h1 style="color: #ffbd58; text-align: center;" class="text-4xl text-sm md:text-5xl text-left sm:text-center  md:text-left lg:text-left
+       lg:m-20 sm:m-20 mt-10 mb-10 m-20 sm:w-full md:w-1/2 lg:w-full
+      mx-20 lg:mb-10  
+        " >
           BRINGING EVERY TRIP CLOSER WITH A TAP
         </h1>
-        <div class="flex justify-start items-center gap-5 mt-20 font-sans">
+        <div class="social-wrapper">
+          <div class="flex justify-center items-center gap-2 mb-10">
+            <img src="./assets//likedin.svg" alt="" class="w-7 h-7">
+            <button class="bg-transparent border border-white rounded-lg p-1 text-white">Follow us</button>
+          </div>
+        </div>
+        <div class="calendar-container">
           <div class="time-section" id="months">
             <div class="time-group">
               <div class="time-segment">
@@ -171,30 +179,24 @@
             </p>
           </div>
         </div>
+        <div class="social-large">
+          <div class="flex justify-center items-center gap-2 mb-10  ">
+            <img src="./assets//likedin.svg" alt="" class="w-10 h-10 md:w-7 md:h-7">
+            <button class="bg-transparent border border-white rounded-lg  px-4  py-2 md:px-2 md:py-1 text-white">Follow us</button>
+          </div>
+        </div>
       </div>
+
       <div class="flex justify-end">
-        <!-- <img
-          style="
-            max-width: 40vw;
-            max-height: 45vh;
-            position: absolute;
-            right: 22%;
-            top: 37%;
-          "
+        <img
           src="./assets/phonesc.svg"
           alt=""
-        /> -->
+          class="phone-image"
+        />
         <img
-          style="
-            max-width: 75vw;
-            max-height: 65vh;
-            position: absolute;
-            bottom: -10%;
-            right: 0;
-          "
           src="./assets/testi.png"
           alt="car"
-          class="z-10"
+          class="car-image"
         />
       </div>
     </div>
